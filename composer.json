@@ -1,0 +1,21 @@
+{
+  "name": "unfraud/unfraud-prestashop",
+  "description": "Unfraud Module for Prestashop",
+  "version": "1.0.0",
+  "type": "prestashop-extension",
+  "keywords": ["unfraud", "prestashop"],
+  "homepage": "https://github.com/unfraud/unfraud-prestashop",
+  "authors": [
+      {
+      "name": "Unfraud",
+      "homepage": "https://unfraud.com"
+      }
+    ],
+    "support": {
+      "email": "support@unfraud.com",
+      "issues": "https://github.com/unfraud/prestashop-plugin/issues"
+    },
+  "require": {
+  "php" : ">=5.3.0"
+  }
+}
