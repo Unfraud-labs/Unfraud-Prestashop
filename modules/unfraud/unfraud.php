@@ -12,7 +12,7 @@ class Unfraud extends Module
     const DASHBOARD_URL = "https://unfraud.com/dashboard";
     const LOGIN_API_URL = "https://unfraud.com/api/v1.1/index.php/user/?login=true";
     const LOGIN_URL = "https://unfraud.com/api/helpers/login.php";
-    const BEA_URL = "//www.unfraud.com/bea/bea.js";
+    const BEA_URL = "//bea.unfraud.com/bea.js";
 
     const SAFE_API_RESPONSE = "safe";
     const FRAUD_API_RESPONSE = "fraud";
