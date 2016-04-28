@@ -19,11 +19,10 @@ Installation Instructions
 ### Via modman
 
 - Install [modman](https://github.com/colinmollenhour/modman)
-- Use the command from your Magento installation folder: `modman clone https://github.com/Unfraud/Unfraud-Prestashop/`
+- Use the command from your Prestashop installation folder: `modman clone https://github.com/Unfraud-labs/Unfraud-Prestashop/`
 
 ### Via composer
 - Install [composer](http://getcomposer.org/download/)
-- Install [Magento Composer](https://github.com/magento-hackathon/magento-composer-installer)
 - Create a composer.json into your project like the following sample:
 
 ```json
@@ -37,10 +36,7 @@ Installation Instructions
             "type": "vcs",
             "url": "https://github.com/Unfraud/Unfraud-Prestashop"
         }
-    ],
-    "extra":{
-        "magento-root-dir": "./"
-    }
+    ]
 }
 ```
 
